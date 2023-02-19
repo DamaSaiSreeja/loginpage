@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("https://www.thebalancecareers.com/thmb/3TXSZvKKQXcWu3Zu3qU8ag158MU=/3864x2577/filters:fill(auto,1)/school-books-on-desk--education-concept-871454068-5b548900c9e77c005b04fc8c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 195px;
+    float: right;
+    height: 70px;
+}
+
+.logo{
+    background: linear-gradient(to left,rgb(230, 0, 151),rgb(134, 0, 179),rgb(0, 0, 255),rgb(100, 192, 111),rgb(255, 255, 51),rgb(255, 140, 26),rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: none;
+    color: transparent;
+    font-size: 32px;
+    font-family: zapfino;
+    padding-top: 20px;
+    font-weight: bolder;
+    opacity: 1;
+} 
+
+.form-box {
+    font-family: sans-serif;
+    width: 380px;
+    height: 480px;
+    position: absolute;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    align-items: center;
+    overflow: hidden;
+    left: 300px;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    margin: 4px 2px;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.fa {
+        padding: 20px;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        position: relative;
+}
+      
+.fa:hover {
+          opacity: 0.7;
+}
+      
+.fa-facebook {
+        background: #3B5998;
+        color: white;
+        left: 220px;
+        top:290px;
+}
+      
+.fa-twitter {
+        background: #55ACEE;
+        color: white;
+        left: 150px;
+        top:221px;
+}
+
+.fa-instagram {
+        background: #fb3958;
+        color: white;
+        left: 80px;
+        top:150px;
+}
+
+.social-icons {
+    width: 25px;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: vertical;
+}
+
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+span {
+    color: rgb(63, 58, 58);
+    font-size: 13px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login {
+    left: 50px;
+}
+
+#register {
+    left: 450px;
+}
